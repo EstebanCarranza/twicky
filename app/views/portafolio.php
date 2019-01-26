@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <?php require_once 'inc/header.portafolio.php'; ?>
+        <?php 
+          if(isset($_GET['type']))
+            $type = $_GET['type'];
+          else
+            $type = "";
+          
+          echo 
+            "<div class='container'>
+              <div class='row card-panel z-depth-0'>
+                ";
+
+            switch($type)
+            {
+              case "individual":
+                echo 
+                "<div class='col l4 m6 s12'>
+                  <div class='card small hoverable'>
+                    <div class='card-image waves-effect waves-block waves-light'>
+                      <img class='activator' src='img/twicky.png'>
+                    </div>
+                    <div class='card-content'>
+                      <span class='card-title activator grey-text text-darken-4'>Twicky<i class='material-icons right'>more_vert</i></span>
+                      <p><a href='http://twicky.com.mx'>Ir al sitio</a></p>
+                    </div>
+                    <div class='card-reveal'>
+                      <span class='card-title grey-text text-darken-4'>Twicky<i class='material-icons right'>close</i></span>
+                      <p>
+                        Tanto twicky como portafolio fueron creados por el creador de éste sitio, la página utiliza php adaptado a framework y materializecss para el uso de Material Design
+                      </p>
+                    </div>
+                  </div>
+                </div>";
+                 echo 
+                "<div class='col l4 m6 s12'>
+                  <div class='card small hoverable'>
+                    <div class='card-image waves-effect waves-block waves-light'>
+                      <img class='activator' src='http://games.twicky.com.mx/wp-content/uploads/2019/01/Lab-2.jpg'>
+                    </div>
+                    <div class='card-content'>
+                      <span class='card-title activator grey-text text-darken-4'>Proyecto Laberinto<i class='material-icons right'>more_vert</i></span>
+                      <p><a href='http://games.twicky.com.mx/proyecto-laberinto/'>Ir al sitio</a></p>
+                    </div>
+                    <div class='card-reveal'>
+                      <span class='card-title grey-text text-darken-4'>Proyecto Laberinto<i class='material-icons right'>close</i></span>
+                      <p>
+                        El videojuego de plataformas proyecto laberinto fue creado con GameMaker solamente por ocio y su fin es solamente el de divertir un rato al jugador.
+                      </p>
+                    </div>
+                  </div>
+                </div>";
+                 echo 
+                "<div class='col l4 m6 s12'>
+                  <div class='card small hoverable'>
+                    <div class='card-image waves-effect waves-block waves-light'>
+                      <img class='activator' src='http://games.twicky.com.mx/wp-content/uploads/2019/01/Nave.jpg'>
+                    </div>
+                    <div class='card-content'>
+                      <span class='card-title activator grey-text text-darken-4'>Proyecto Nave<i class='material-icons right'>more_vert</i></span>
+                      <p><a href='http://games.twicky.com.mx/proyecto-nave/'>Ir al sitio</a></p>
+                    </div>
+                    <div class='card-reveal'>
+                      <span class='card-title grey-text text-darken-4'>Proyecto Nave<i class='material-icons right'>close</i></span>
+                      <p>
+                        El videojuego de plataformas proyecto nave fue creado con GameMaker solamente por ocio y su fin es solamente el de divertir un rato al jugador.
+                      </p>
+                    </div>
+                  </div>
+                </div>";
+                echo 
+                "<div class='col l4 m6 s12'>
+                  <div class='card small hoverable'>
+                    <div class='card-image waves-effect waves-block waves-light'>
+                      <img class='activator' src='http://games.twicky.com.mx/wp-content/uploads/2018/04/banner-1200x228.png'>
+                    </div>
+                    <div class='card-content'>
+                      <span class='card-title activator grey-text text-darken-4'>Crystal Burn<i class='material-icons right'>more_vert</i></span>
+                      <p><a href='http://games.twicky.com.mx/crystal-burn/'>Ir al sitio</a></p>
+                    </div>
+                    <div class='card-reveal'>
+                      <span class='card-title grey-text text-darken-4'>Crystal Burn<i class='material-icons right'>close</i></span>
+                      <p>
+                        Videojuego creado para la materia Multimedia Interactiva FCFM-UANL-LMAD el proyecto quedó incompleto por falta de tiempo. Trata sobre un juego para navegador de carreras para 4 jugadores en donde ganará el primero que cruce la meta o el que tenga más cristales obtenidos en la pista.
+                      </p>
+                    </div>
+                  </div>
+                </div>";
+                 echo 
+                "<div class='col l4 m6 s12'>
+                  <div class='card small hoverable'>
+                    <div class='card-image waves-effect waves-block waves-light'>
+                      <img class='activator' src='http://games.twicky.com.mx/wp-content/uploads/2018/10/banner_01-1200x354.png'>
+                    </div>
+                    <div class='card-content'>
+                      <span class='card-title activator grey-text text-darken-4'>Crystal Bit<i class='material-icons right'>more_vert</i></span>
+                      <p><a href='http://games.twicky.com.mx/crystal-bit/'>Ir al sitio</a></p>
+                    </div>
+                    <div class='card-reveal'>
+                      <span class='card-title grey-text text-darken-4'>Crystal Bit<i class='material-icons right'>close</i></span>
+                      <p>
+                        Videojuego creado para la materia Multimedia Interactiva FCFM-UANL-LMAD el proyecto fue completado y está disponible para su uso. Trata sobre un juego para navegador en el que dos jugadores pelearán por obtener la mayor puntuación, el videojuego consta con varios powerUps que hacen divertida la experiencia.
+                      </p>
+                    </div>
+                  </div>
+                </div>";
+                 echo 
+                "<div class='col l4 m6 s12'>
+                  <div class='card small hoverable'>
+                    <div class='card-image waves-effect waves-block waves-light'>
+                      <img class='activator' src='http://games.twicky.com.mx/wp-content/uploads/2019/01/taptap_02.png'>
+                    </div>
+                    <div class='card-content'>
+                      <span class='card-title activator grey-text text-darken-4'>TapTap<i class='material-icons right'>more_vert</i></span>
+                      <p><a href='http://games.twicky.com.mx/proyecto-taptap/'>Ir al sitio</a></p>
+                    </div>
+                    <div class='card-reveal'>
+                      <span class='card-title grey-text text-darken-4'>TapTap<i class='material-icons right'>close</i></span>
+                      <p>
+                        TapTap es un juego muy sencillo creado por ocio en donde el objetivo encontrar los pares para obtener la mayor puntuación posible con la menor cantidad de intentos, el juego es prácticamente infinito gracias a su algoritmo que reubica los cuadros del color que se necesitan.
+                      </p>
+                    </div>
+                  </div>
+                </div>";
+              break;
+              case "collaborative":
+                echo 
+                "
+                  <div class='col l4 m6 s12'>
+                    <div class='card small hoverable'>
+                      <div class='card-image waves-effect waves-block waves-light'>
+                        <img class='activator' src='img/social.png'>
+                      </div>
+                      <div class='card-content'>
+                        <span class='card-title activator grey-text text-darken-4'>Twicky Social!<i class='material-icons right'>more_vert</i></span>
+                        <p><a href='http://social.twicky.com.mx'>Ir al sitio</a></p>
+                      </div>
+                      <div class='card-reveal'>
+                        <span class='card-title grey-text text-darken-4'>Twicky Social<i class='material-icons right'>close</i></span>
+                        <p>Este sitio fue hecho en modo colaborativo de 2 integrantes para la materia Base de datos Multimedia (BDM) de LMAD FCFM, hecho con php, css y js puros, usando como base de datos MySQL, ésta es la pre-versión final, no se encontraron todos los procedimientos almacenados por lo cual está un poco inestable al momento de hacer búsquedas, pero más del 70% del proyecto que fue entregado está aqui para demostración.<p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class='col l4 m6 s12'>
+                    <div class='card small hoverable'>
+                      <div class='card-image waves-effect waves-block waves-light'>
+                        <img class='activator' src='img/twickyTube.png'>
+                      </div>
+                      <div class='card-content'>
+                        <span class='card-title activator grey-text text-darken-4'>TwickyTube<i class='material-icons right'>more_vert</i></span>
+                        <p><a href='http://video.twicky.com.mx'>Ir al sitio</a></p>
+                      </div>
+                      <div class='card-reveal'>
+                        <span class='card-title grey-text text-darken-4'>TwickyTube<i class='material-icons right'>close</i></span>
+                        <p>TwickyTube fue hecho en modo colaborativo de 2 integrantes para la materia de Programación Aplicada para la Web (PAPW) de LMAD FCFM, hecho con Java Web, css y js puros, usando como base de datos MySQL, ésta versión solamente es el pre-front de la misma página, ya que éste servicio de hosting no soporta Java Web</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class='col l4 m6 s12'>
+                    <div class='card small hoverable'>
+                      <div class='card-image waves-effect waves-block waves-light'>
+                        <img class='activator' src='img/prospectos.png'>
+                      </div>
+                      <div class='card-content'>
+                        <span class='card-title activator grey-text text-darken-4'>Aplicación de prospectos<i class='material-icons right'>more_vert</i></span>
+                        <p><a href='http://pm.twicky.com.mx'>Ir al sitio</a></p>
+                      </div>
+                      <div class='card-reveal'>
+                        <span class='card-title grey-text text-darken-4'>Aplicación de prospectos<i class='material-icons right'>close</i></span>
+                        <p>
+                          Éste sitio fue hecho en modo colaborativo de 5 integrantes para la materia de Programación Multimedia (PM) FCFM - LMAD - UANL, la aplicación de prospectos tiene como fin hacer el registro de solicitudes de los prospectos interesados en asistir a cursos sobre distintas aplicaciones, también cuenta con la plataforma para que se registre como cliente y para que un operador del sitio pueda ponerse en contacto y resolver las dudas que sean necesarias
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ";
+                  echo 
+                "<div class='col l4 m6 s12'>
+                  <div class='card small hoverable'>
+                    <div class='card-image waves-effect waves-block waves-light'>
+                      <img class='activator' src='http://games.twicky.com.mx/wp-content/uploads/2019/01/CoffeeBreak.png'>
+                    </div>
+                    <div class='card-content'>
+                      <span class='card-title activator grey-text text-darken-4'>Coffee Break<i class='material-icons right'>more_vert</i></span>
+                      <p><a href='http://games.twicky.com.mx/coffee-break/'>Ir al sitio</a></p>
+                    </div>
+                    <div class='card-reveal'>
+                      <span class='card-title grey-text text-darken-4'>Coffee Break<i class='material-icons right'>close</i></span>
+                      <p>
+                        El videojuego de plataformas coffee break fue creado de modo coperativo con Unreal Engine para el evento 48toPlay 2017 el rol que se trabajó fue el de desarrollador
+                      </p>
+                    </div>
+                  </div>
+                </div>";
+              
+              
+              
+              
+              break;
+              default: 
+                echo "
+                  <div class='container'>
+                    <h1>No hay datos</h1>
+                  </div>
+                ";
+              break;
+            }
+
+          echo "
+                </div>
+              </div>
+            </div>";
+        ?>
+
+     
+      
+  
+
+        <?php require_once 'inc/footer.php'; ?>
+
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js" integrity="sha256-h0cGsrExGgcZtSZ/fRz4AwV+Nn6Urh/3v3jFRQ0w9dQ=" crossorigin="anonymous"></script>
+        <!--JavaScript at end of body for optimized loading-->
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+                $(".dropdown-trigger").dropdown();
+            });
+        </script>
+
+
+    </body>
+  </html>
