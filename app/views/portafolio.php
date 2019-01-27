@@ -36,7 +36,7 @@
                     </div>
                     <div class='card-content'>
                       <span class='card-title activator grey-text text-darken-4'>Twicky<i class='material-icons right'>more_vert</i></span>
-                      <p><a href='http://twicky.com.mx'>Ir al sitio</a></p>
+                      <p><a target='_blank' href='http://twicky.com.mx'>Ir al sitio</a></p>
                     </div>
                     <div class='card-reveal'>
                       <span class='card-title grey-text text-darken-4'>Twicky<i class='material-icons right'>close</i></span>
@@ -54,7 +54,7 @@
                     </div>
                     <div class='card-content'>
                       <span class='card-title activator grey-text text-darken-4'>Proyecto Laberinto<i class='material-icons right'>more_vert</i></span>
-                      <p><a href='http://games.twicky.com.mx/proyecto-laberinto/'>Ir al sitio</a></p>
+                      <p><a target='_blank' href='http://games.twicky.com.mx/proyecto-laberinto/'>Ir al sitio</a></p>
                     </div>
                     <div class='card-reveal'>
                       <span class='card-title grey-text text-darken-4'>Proyecto Laberinto<i class='material-icons right'>close</i></span>
@@ -72,7 +72,7 @@
                     </div>
                     <div class='card-content'>
                       <span class='card-title activator grey-text text-darken-4'>Proyecto Nave<i class='material-icons right'>more_vert</i></span>
-                      <p><a href='http://games.twicky.com.mx/proyecto-nave/'>Ir al sitio</a></p>
+                      <p><a target='_blank' href='http://games.twicky.com.mx/proyecto-nave/'>Ir al sitio</a></p>
                     </div>
                     <div class='card-reveal'>
                       <span class='card-title grey-text text-darken-4'>Proyecto Nave<i class='material-icons right'>close</i></span>
@@ -90,7 +90,7 @@
                     </div>
                     <div class='card-content'>
                       <span class='card-title activator grey-text text-darken-4'>Crystal Burn<i class='material-icons right'>more_vert</i></span>
-                      <p><a href='http://games.twicky.com.mx/crystal-burn/'>Ir al sitio</a></p>
+                      <p><a target='_blank' href='http://games.twicky.com.mx/crystal-burn/'>Ir al sitio</a></p>
                     </div>
                     <div class='card-reveal'>
                       <span class='card-title grey-text text-darken-4'>Crystal Burn<i class='material-icons right'>close</i></span>
@@ -108,7 +108,7 @@
                     </div>
                     <div class='card-content'>
                       <span class='card-title activator grey-text text-darken-4'>Crystal Bit<i class='material-icons right'>more_vert</i></span>
-                      <p><a href='http://games.twicky.com.mx/crystal-bit/'>Ir al sitio</a></p>
+                      <p><a target='_blank' href='http://games.twicky.com.mx/crystal-bit/'>Ir al sitio</a></p>
                     </div>
                     <div class='card-reveal'>
                       <span class='card-title grey-text text-darken-4'>Crystal Bit<i class='material-icons right'>close</i></span>
@@ -126,7 +126,7 @@
                     </div>
                     <div class='card-content'>
                       <span class='card-title activator grey-text text-darken-4'>TapTap<i class='material-icons right'>more_vert</i></span>
-                      <p><a href='http://games.twicky.com.mx/proyecto-taptap/'>Ir al sitio</a></p>
+                      <p><a target='_blank' href='http://games.twicky.com.mx/proyecto-taptap/'>Ir al sitio</a></p>
                     </div>
                     <div class='card-reveal'>
                       <span class='card-title grey-text text-darken-4'>TapTap<i class='material-icons right'>close</i></span>
@@ -148,7 +148,7 @@
                       </div>
                       <div class='card-content'>
                         <span class='card-title activator grey-text text-darken-4'>Twicky Social!<i class='material-icons right'>more_vert</i></span>
-                        <p><a href='http://social.twicky.com.mx'>Ir al sitio</a></p>
+                        <p><a target='_blank' href='http://social.twicky.com.mx'>Ir al sitio</a></p>
                       </div>
                       <div class='card-reveal'>
                         <span class='card-title grey-text text-darken-4'>Twicky Social<i class='material-icons right'>close</i></span>
@@ -164,7 +164,7 @@
                       </div>
                       <div class='card-content'>
                         <span class='card-title activator grey-text text-darken-4'>TwickyTube<i class='material-icons right'>more_vert</i></span>
-                        <p><a href='http://video.twicky.com.mx'>Ir al sitio</a></p>
+                        <p><a target='_blank' href='http://video.twicky.com.mx'>Ir al sitio</a></p>
                       </div>
                       <div class='card-reveal'>
                         <span class='card-title grey-text text-darken-4'>TwickyTube<i class='material-icons right'>close</i></span>
@@ -180,7 +180,7 @@
                       </div>
                       <div class='card-content'>
                         <span class='card-title activator grey-text text-darken-4'>Aplicación de prospectos<i class='material-icons right'>more_vert</i></span>
-                        <p><a href='http://pm.twicky.com.mx'>Ir al sitio</a></p>
+                        <p><a target='_blank' href='http://pm.twicky.com.mx'>Ir al sitio</a></p>
                       </div>
                       <div class='card-reveal'>
                         <span class='card-title grey-text text-darken-4'>Aplicación de prospectos<i class='material-icons right'>close</i></span>
@@ -199,7 +199,7 @@
                     </div>
                     <div class='card-content'>
                       <span class='card-title activator grey-text text-darken-4'>Coffee Break<i class='material-icons right'>more_vert</i></span>
-                      <p><a href='http://games.twicky.com.mx/coffee-break/'>Ir al sitio</a></p>
+                      <p><a target='_blank' href='http://games.twicky.com.mx/coffee-break/'>Ir al sitio</a></p>
                     </div>
                     <div class='card-reveal'>
                       <span class='card-title grey-text text-darken-4'>Coffee Break<i class='material-icons right'>close</i></span>
@@ -218,7 +218,7 @@
                     </div>
                     <div class='card-content'>
                       <span class='card-title activator grey-text text-darken-4'>LIF The Game<i class='material-icons right'>more_vert</i></span>
-                      <p><a href='http://games.twicky.com.mx/LIF/'>Ir al sitio</a></p>
+                      <p><a target='_blank' href='http://games.twicky.com.mx/LIF/'>Ir al sitio</a></p>
                     </div>
                     <div class='card-reveal'>
                       <span class='card-title grey-text text-darken-4'>LIF The Game<i class='material-icons right'>close</i></span>
@@ -236,7 +236,7 @@
                     </div>
                     <div class='card-content'>
                       <span class='card-title activator grey-text text-darken-4'>LTGM<i class='material-icons right'>more_vert</i></span>
-                      <p><a href='http://games.twicky.com.mx/lif-multiplayer-the-game/'>Ir al sitio</a></p>
+                      <p><a target='_blank' href='http://games.twicky.com.mx/lif-multiplayer-the-game/'>Ir al sitio</a></p>
                     </div>
                     <div class='card-reveal'>
                       <span class='card-title grey-text text-darken-4'>LTGM<i class='material-icons right'>close</i></span>
@@ -254,7 +254,7 @@
                     </div>
                     <div class='card-content'>
                       <span class='card-title activator grey-text text-darken-4'>Dango's Life<i class='material-icons right'>more_vert</i></span>
-                      <p><a href='https://www.youtube.com/watch?v=xOHEsNR3sD8'>Ir al sitio</a></p>
+                      <p><a target='_blank' href='https://www.youtube.com/watch?v=xOHEsNR3sD8'>Ir al sitio</a></p>
                     </div>
                     <div class='card-reveal'>
                       <span class='card-title grey-text text-darken-4'>Dango's Life<i class='material-icons right'>close</i></span>
@@ -272,7 +272,7 @@
                     </div>
                     <div class='card-content'>
                       <span class='card-title activator grey-text text-darken-4'>Claudicación<i class='material-icons right'>more_vert</i></span>
-                      <p><a href='https://www.youtube.com/watch?v=5DoTCN8O-bE'>Ir al sitio</a></p>
+                      <p><a target='_blank' href='https://www.youtube.com/watch?v=5DoTCN8O-bE'>Ir al sitio</a></p>
                     </div>
                     <div class='card-reveal'>
                       <span class='card-title grey-text text-darken-4'>Claudicación<i class='material-icons right'>close</i></span>
