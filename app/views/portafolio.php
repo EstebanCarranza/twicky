@@ -208,6 +208,25 @@
                     </div>
                   </div>
                 </div>";
+
+                  echo 
+                "<div class='col l4 m6 s12'>
+                  <div class='card small hoverable'>
+                    <div class='card-image waves-effect waves-block waves-light'>
+                      <img class='activator' src='http://games.twicky.com.mx/wp-content/uploads/2018/04/LIF_MENU-1200x633.jpg'>
+                    </div>
+                    <div class='card-content'>
+                      <span class='card-title activator grey-text text-darken-4'>LIF The Game<i class='material-icons right'>more_vert</i></span>
+                      <p><a href='http://games.twicky.com.mx/LIF/'>Ir al sitio</a></p>
+                    </div>
+                    <div class='card-reveal'>
+                      <span class='card-title grey-text text-darken-4'>LIF The Game<i class='material-icons right'>close</i></span>
+                      <p>
+                        Videojuego fps creado por 3 integrantes para la materia Videojuegos 2 (VJ2-FCFM-UANL)
+                      </p>
+                    </div>
+                  </div>
+                </div>";
               
               
               
