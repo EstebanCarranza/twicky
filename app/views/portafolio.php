@@ -136,6 +136,7 @@
                     </div>
                   </div>
                 </div>";
+                 
               break;
               case "collaborative":
                 echo 
@@ -245,7 +246,24 @@
                     </div>
                   </div>
                 </div>";
-              
+              echo 
+                "<div class='col l4 m6 s12'>
+                  <div class='card small hoverable'>
+                    <div class='card-image waves-effect waves-block waves-light'>
+                      <img class='activator' src='http://twicky.com.mx/img/dangoslife.png'>
+                    </div>
+                    <div class='card-content'>
+                      <span class='card-title activator grey-text text-darken-4'>Dango's Life<i class='material-icons right'>more_vert</i></span>
+                      <p><a href='https://www.youtube.com/watch?v=xOHEsNR3sD8'>Ir al sitio</a></p>
+                    </div>
+                    <div class='card-reveal'>
+                      <span class='card-title grey-text text-darken-4'>Dango's Life<i class='material-icons right'>close</i></span>
+                      <p>
+                        Dango's Life es un pequeño video claymotion creado por 4 integrantes para la materia de Técnologías Multimedia (FCFM-UANL-LMAD) el rol que el desarrollador de esta página tuvo fue el de edición de video 
+                      </p>
+                    </div>
+                  </div>
+                </div>";
               
               
               break;
