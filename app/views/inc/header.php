@@ -1,14 +1,14 @@
 <!-- Dropdown Structure -->
 <ul id="dropdown1" class="dropdown-content">
-  <li><a href="portafolio.php?type=individual">Individual</a></li>
+  <li><a href="portafolio.php?type=IND">Individual</a></li>
   <li class="divider"></li>
-  <li><a href="portafolio.php?type=collaborative">Colaborativo</a></li>
+  <li><a href="portafolio.php?type=COL">Colaborativo</a></li>
 </ul>
 <!-- Dropdown Structure -->
 <ul id="dropdown1-mobile" class="dropdown-content">
-  <li><a href="portafolio.php?type=individual">Individual</a></li>
+  <li><a href="portafolio.php?type=IND">Individual</a></li>
   <li class="divider"></li>
-  <li><a href="portafolio.php?type=collaborative">Colaborativo</a></li>
+  <li><a href="portafolio.php?type=COL">Colaborativo</a></li>
 </ul>
 <style>
 .ec-color-transparent
