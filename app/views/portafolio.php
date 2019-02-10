@@ -7,6 +7,7 @@
 <!DOCTYPE html>
   <html>
     <head>
+    <title> Twicky! </title>
     <meta charset="UTF-8">
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
