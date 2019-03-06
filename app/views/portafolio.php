@@ -185,6 +185,45 @@
                         </div>
                       </div>
                     </div>";
+
+                      echo 
+                    "<div class='col l4 m6 s12 animated-card'>
+                      <div class='card small hoverable'>
+                        <div class='card-image waves-effect waves-block waves-light'>
+                          <img class='activator' src='img/infoTwicky.png'>
+                        </div>
+                        <div class='card-content'>
+                          <span class='card-title activator grey-text text-darken-4'>Info Twicky<i class='material-icons right'>more_vert</i></span>
+                          <p><a target='_blank' href='http://info.twicky.com.mx'>Ir al sitio</a></p>
+                        </div>
+                        <div class='card-reveal'>
+                          <span class='card-title grey-text text-darken-4'>Info Twicky<i class='material-icons right'>close</i></span>
+                          <p>
+                            Éste sitio web utiliza el CMS Wordpress para la administración de los distintos blogs y permite a un usuario
+                            el registro y publicación en el mismo sitio
+                          </p>
+                        </div>
+                      </div>
+                    </div>";
+
+                      echo 
+                    "<div class='col l4 m6 s12 animated-card'>
+                      <div class='card small hoverable'>
+                        <div class='card-image waves-effect waves-block waves-light'>
+                          <img class='activator' src='img/twickyGames.png'>
+                        </div>
+                        <div class='card-content'>
+                          <span class='card-title activator grey-text text-darken-4'>Twicky Games<i class='material-icons right'>more_vert</i></span>
+                          <p><a target='_blank' href='http://games.twicky.com.mx'>Ir al sitio</a></p>
+                        </div>
+                        <div class='card-reveal'>
+                          <span class='card-title grey-text text-darken-4'>Twicky Games<i class='material-icons right'>close</i></span>
+                          <p>
+                            Twicky Games es un sitio donde se muestran los videojuegos en donde el desarrollador de ésta página ha participado o desarrollado de manera individual.
+                          </p>
+                        </div>
+                      </div>
+                    </div>";
                      
                   break;
                   case "COL":

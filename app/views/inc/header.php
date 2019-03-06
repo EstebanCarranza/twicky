@@ -26,9 +26,9 @@
         <a href="index.php" class="brand-logo">Twicky</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="http://apps.twicky.com.mx">Apps</a></li>
+          <!--<li><a href="http://apps.twicky.com.mx">Apps</a></li>-->
           <li><a href="http://info.twicky.com.mx">Info</a></li>
-          <li><a href="http://lab.twicky.com.mx">Lab</a></li>
+          <!--<li><a href="http://lab.twicky.com.mx">Lab</a></li>-->
           <li><a href="http://games.twicky.com.mx">Games</a></li>
           <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Portafolio<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
@@ -38,7 +38,7 @@
 </div>
     <ul class="sidenav" id="mobile-demo">
       <li><a href="http://info.twicky.com.mx">Info</a></li>
-      <li><a href="http://lab.twicky.com.mx">Lab</a></li>
+      <!--<li><a href="http://lab.twicky.com.mx">Lab</a></li>-->
       <li><a href="http://games.twicky.com.mx">Games</a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown1-mobile">Portafolio<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
