@@ -31,7 +31,8 @@
       opacity: 0.8;
       filter: alpha(opacity=80);
       width:100%;
-      object-fit: cover; height: 500px;
+      object-fit: cover; 
+      /*height: 500px;*/
       
     }
     .cover-text 
@@ -43,7 +44,7 @@
     {
       margin-top: 0%;
       margin-bottom: 1%;
-      max-height:300px;
+      /*max-height:300px;*/
     }
     
 </style>
